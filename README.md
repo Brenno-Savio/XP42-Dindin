@@ -1,2 +1,2 @@
-# XP42-Dinfin
+# XP42-Dindin
 Projeto Hands-on
