@@ -1,0 +1,112 @@
+main {
+    margin: 0;
+    background: url(../images/ilustra-blog.png) 75% 48px no-repeat;
+}
+
+h1 {
+    max-width: 435px;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+    color: #009688;
+    margin: 0;
+    padding: 122px 239px 40px;
+    text-transform: uppercase;
+}
+
+main p {
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 435px;
+    margin: 0;
+    padding: 0 239px 162px;
+}
+
+section {
+    background: #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 109px 100px;
+}
+
+section > article {
+    display: block;
+    justify-content: center;
+}
+
+section article div {
+    background: #c4c4c4;
+    width: 518px;
+    height: 259px;
+}
+
+section article h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    color: #ff4081;
+    cursor: pointer;
+}
+
+section article > p {
+    padding: 0;
+    color: #000000;
+    cursor: pointer;
+}
+
+section a {
+    text-decoration: none;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    main {
+        background: none;
+    }
+
+    h1 {
+        max-width: none;
+    }
+
+    main p{
+        font-size: 25px;
+        padding: 0 187px 50px;
+        justify-content: center;
+    }
+
+    section {
+        justify-content: center;
+    }
+    
+}
+
+@media only screen and (max-width: 420px) {
+    
+    h1 {
+        font-size: 30px;
+        padding: 15px 30px;
+    }
+
+    main p {
+        padding: 20px 30px;
+        font-size: 20px;
+    }
+
+    section article div {
+        width: 388.5px;
+        height: 194.25px;
+    }
+
+    section article h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    section article p {
+        font-size: 20px;
+    }
+
+}

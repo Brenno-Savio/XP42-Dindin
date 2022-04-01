@@ -1,0 +1,73 @@
+main {
+    padding: 105px 136px 97px;
+    background: url(../images/ilustra-contato.png) 75% 82px no-repeat;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #ff4081;
+    margin-bottom: 44px;
+}
+
+.forma {
+    width: 493px;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    padding: 5px 5px;
+}
+
+::placeholder {
+    padding: 5px 0;
+    padding-left: 23px;
+    color: #58555d;
+}
+
+#enviar {
+    background: #ff4081;
+    border-radius: 50px;
+    text-align: center;
+    width: 108px;
+    height: 32px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+textarea {
+    resize: none;
+}
+
+:focus {
+    outline-width: 0;
+}
+
+@media only screen and (max-width: 769px) {
+    
+    main {
+        background: none;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    
+    main {
+        background: none;
+        padding: 20px 17px;
+    }
+
+    .forma {
+        width: 350px;
+    }
+
+}

@@ -1,0 +1,117 @@
+main {
+    background: url(../images/ilustra-poupando.png) 75% 0  no-repeat;
+}
+
+h1 {
+    max-width: 512px;
+    max-height: 126px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FF4081;
+    margin: 93px 0 0 202px;
+}
+
+main p {
+    max-width: 461px;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 0 0 115px 202px;
+}
+
+section {
+    background: #F7F7F7;
+    display: block;
+    padding: 0 98px;
+}
+
+section article {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 75px 115px;
+}
+
+iframe {
+    border: 3px solid #8e8e8e;
+    box-sizing: border-box;
+    background: url(../images/Ellipse\ 1.png) 50% 50% no-repeat, url(../images/Polygon\ 1.png) 51% 50% no-repeat;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    margin: 0;
+    padding-bottom: 26px;
+}
+
+section article aside {
+    padding: 0 76px;
+}
+
+section article aside > p {
+    margin: 0;
+    padding: 0;
+    max-width: 501px;
+}
+
+.divisoria {
+    border-bottom: 3px solid #c4c4c4;
+}
+
+@media only screen and (max-width: 769px) {
+    
+    main {
+        background: none;
+    }
+
+    h1 {
+        margin: 10% 20%;
+    }
+
+    main p {
+        margin: 10% 20%;
+        padding: 0;
+    }
+
+    section {
+        padding: 5% 20%;
+
+    }
+
+    section article {
+        display: block;
+        padding: 2% 0;
+    }
+
+    section article aside {
+        padding: 5% 0;
+    }
+
+}
+
+@media only screen and (max-width: 769px) {
+
+    h1 {
+        margin: 1% 2%;
+    }
+
+    main p {
+        margin: 1% 2%;
+        padding: 0;
+    }
+
+    section {
+        padding: 2% 5%;
+    }
+
+    iframe {
+        width: 342px;
+        height: 191.25px;
+        margin: 0 17px;
+    }
+
+}

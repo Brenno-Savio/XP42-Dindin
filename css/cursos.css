@@ -1,0 +1,95 @@
+main {
+    padding: 81px 82px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 69px;
+    color: #ff4081;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 95px;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #ff4081;
+}
+
+.botao {
+    border-radius: 62px;
+    background: #419488;
+    padding: 13px 8px;
+    text-align: center;
+    max-width: 233px;
+    list-style: none;
+}
+
+main article a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+main article p {
+    max-width: 724px;
+}
+
+#primeiro-artigo {
+    background: url(../images/ilustra-poupando.png) no-repeat;
+    background-size: 380px 381px;
+    padding-left: 463px;
+    padding-bottom: 142px;
+    border-bottom: 5px solid #c4c4c4;
+}
+
+#segundo-artigo {
+    background: url(../images/ilustra-investimento.png) no-repeat;
+    background-size: 380px 385px;
+    padding-left: 463px;
+    padding-bottom: 174px;
+    margin-top: 107px;
+    border-bottom: 5px solid #c4c4c4;
+}
+
+#terceiro-artigo {
+    background: url(../images/ilustra-independencia.png) no-repeat;
+    background-size: 380px 498px;
+    padding-left: 463px;
+    padding-bottom: 382px;
+    margin-top: 152px;
+}
+
+@media only screen and (max-width: 769px) {
+    
+    #primeiro-artigo {
+        background: none;
+        padding: 0;
+        padding-bottom: 20px;
+        margin-top: 50px;
+    }
+    
+    #segundo-artigo {
+        background: none;
+        padding: 0;
+        padding-bottom: 20px;
+        margin-top: 50px;
+    }
+    
+    #terceiro-artigo {
+        background: none;
+        padding: 0;
+        padding-bottom: 20px;
+        margin-top: 50px;
+    }
+
+}

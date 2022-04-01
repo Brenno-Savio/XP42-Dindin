@@ -1,0 +1,313 @@
+h1 {
+    max-width: 488px;
+    max-height: 216px;
+    font-size: 60px;
+    line-height: 69px;
+    color: #ff4081;
+    font-weight: 700;
+    display: block;
+    padding: 125px 0 0 0;
+    margin: 0;
+}
+
+#descricão {
+    margin-top: 19px;
+    max-width: 370px;
+    font-size: 27px;
+    line-height: 31px;
+    font-weight: 400;
+    color: #555555;
+}
+
+#link-1-artigo {
+    list-style: none;
+    border: 2px solid #ff4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    max-width: 268px;
+    max-height: 51px;
+    text-align: center;
+    padding: 8px 26px 22px;
+    margin: 38px 0 0 0;
+}
+
+#texto-link-1-artigo {
+    font-size: 27px;
+    color: #ff4081;
+    font-weight: 400;
+    line-height: 31px;
+    text-decoration: none;
+}
+
+#primeiro-artigo {
+    background: url(../images/ilustra-banner.png) 733px 135px no-repeat;
+    display: block;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    padding-left: 206px;
+    padding-bottom: 201px;
+}
+
+#primeira-secao {
+    background: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+#artigo-1 {
+    background: url(../images/ilustra-poupando.png) 50% 30% no-repeat;
+    background-size: 288px 270px;
+    padding-top: 424px;
+    padding-bottom: 119px;
+}
+
+#artigo-2 {
+    background: url(../images/ilustra-investimento.png) 50% 30% no-repeat;
+    background-size: 238px 270px;
+    padding-top: 424px;
+    padding-bottom: 119px;
+}
+
+#artigo-3 {
+    background: url(../images/ilustra-independencia.png) 50% 30% no-repeat;
+    background-size: 187px 270px;
+    padding-top: 424px;
+    padding-bottom: 119px;
+}
+
+.titulo {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #ff4081;
+    width: 344px;
+    list-style: none;
+}
+
+.texto-1-secao {
+    max-width: 293px;
+    margin: 6.7%;
+}
+
+.botao-1-secao {
+    border-radius: 62px;
+    background: #ff4081;
+    width: 216px;
+    list-style: none;
+    padding: 15px 9px;
+    margin: 0 55px;
+}
+
+.link-1-secao {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.artigo-1-secao {
+    text-align: center;
+    padding: 0;
+}
+
+#artigo-secao-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 139px 69px;
+}
+
+h4 {
+    margin: 0;
+    padding: 119px 128px 78px;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #009688;
+    display: block;
+    text-transform: uppercase;
+}
+
+#artigo-1-secao-2 {
+    background: url(../images/icon-wally.png) no-repeat;
+}
+
+#artigo-2-secao-2 {
+    background: url(../images/icon-jaden.png) no-repeat;
+}
+
+#artigo-3-secao-2 {
+    background: url(../images/icon-whoopi.png) no-repeat;
+}
+
+#artigo-4-secao-2 {
+    background: url(../images/icon-jane.png) no-repeat;
+}
+
+.texto-secao-2 {
+    max-width: 363px;
+    margin: 0 -98px 0 121px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.nome-entrevistado {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 -98px 86px 121px;
+    list-style: none;
+}
+
+#terceira-secao {
+    background-color: #e5e5e5;
+    margin: 0;
+}
+
+h5 {
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #009688;
+    padding: 91px 128px 73px;
+}
+
+#artigo-secao-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 128px 205px;
+}
+
+.espaco-imagem-secao-3 {
+    background-color: #C4C4C4;
+    width: 319px;
+    height: 193px;
+}
+
+.titulo-secao-3 {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+}
+
+.texto-secao-3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+@media only screen and (max-width: 769px) {
+    
+    #primeiro-artigo {
+        background: none;
+    }
+
+    #primeira-secao {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        padding-bottom: 5%;
+    }
+
+    #artigo-1 {
+        background: none;
+        background:0;
+        padding: 5% 0;
+        margin-bottom: 5%;
+    }
+    
+    #artigo-2 {
+        background: none;
+        background:0;
+        padding: 0;
+        padding: 5% 0;
+        margin-bottom: 5%;
+    }
+    
+    #artigo-3 {
+        background: none;
+        background:0;
+        padding: 5% 0;
+        margin-bottom: 5%;
+    }
+
+    .titulo {
+        padding: 0 25%;
+    }
+
+    .texto-1-secao {
+        max-width: 293px;
+        padding: 5% 29%;
+        margin: 0;
+    }
+    
+    .botao-1-secao {
+        margin: 0 33%;
+    }
+
+    #artigo-secao-3 {
+        display: block;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    
+    #primeiro-artigo {
+        padding: 0 7% 7%;
+    }
+
+    h1 {
+        padding-top: 10%;
+    }
+
+    #primeira-secao {
+        padding: 0;
+    }
+
+    .titulo {
+        padding: 0 9%;
+    }
+
+    .texto-1-secao {
+        padding: 5% 15%;
+    }
+
+    .botao-1-secao {
+        margin: 0 22%;
+    }
+
+    h4 {
+        padding: 5%;
+    }
+
+    #artigo-secao-2 {
+        margin: 0 20px 30px;
+    }
+
+    .texto-secao-2 {
+        margin: 0 0 0 121px;
+    }
+
+    #artigo-secao-3 {
+        padding: 0;
+    }
+
+    .nome-entrevistado {
+        margin: 0 0 30px 121px;
+    }
+
+    h5 {
+        padding: 5%;
+        margin: 10% 0;
+    }
+
+    #terceira-secao {
+        padding-bottom: 20px;
+    }
+
+}

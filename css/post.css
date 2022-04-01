@@ -1,0 +1,194 @@
+main article {
+    margin: 111px 10% 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: -webkit-center;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+    color: #ff4081;
+    margin: 0;
+}
+
+main article ul {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9d9d9d;
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+#espaco-imagem {
+    width: 1032px;
+    height: 465px;
+    background: #c4c4c4;
+    margin: 0 26px;
+}
+
+main article div {
+    max-width: 1032px;
+}
+
+main article article {
+    margin: 0 26px;
+    text-align: start;
+}
+
+main article b {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #009688;
+}
+
+section {
+    background: #f7f7f7;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #ff4081;
+    padding-top: 79px;
+}
+
+section article {
+    background: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 78px;
+    margin: 0;
+    padding-top: 101px;
+}
+
+#artigo-1 {
+    background: url(../images/ilustra-poupando.png) 50% 0% no-repeat;
+    background-size: 288px 270px;
+    padding: 320px 0 98px;
+}
+
+#artigo-2 {
+    background: url(../images/ilustra-investimento.png) 50% 0% no-repeat;
+    background-size: 238px 270px;
+    padding: 320px 0 98px;
+}
+
+#artigo-3 {
+    background: url(../images/ilustra-independencia.png) 50% 0% no-repeat;
+    background-size: 187px 270px;
+    padding: 320px 0 98px;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #ff4081;
+    width: 344px;
+    text-align: center;
+}
+
+.texto-1-secao {
+    max-width: 293px;
+    margin: 6.7%;
+    color: #000000;
+}
+
+.botao-1-secao {
+    border-radius: 62px;
+    background: #ff4081;
+    width: 216px;
+    list-style: none;
+    padding: 15px 9px;
+    margin: 0px 55px;
+}
+
+.link-1-secao {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.artigo-1-secao {
+    text-align: center;
+    padding: 0;
+}
+
+@media only screen and (max-width: 769px) {
+    
+    section article {
+        display: block;
+        justify-content: center;
+    }
+
+    section article > article {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 22%;
+    }
+    
+    #espaco-imagem {
+        width: 516px;
+        height: 232.5px;
+    }
+
+    #artigo-1 {
+        background: none;
+        background-size: 0;
+        padding: 0;
+    }
+    
+    #artigo-2 {
+        background: none;
+        background-size: 0;
+        padding: 0;
+    }
+    
+    #artigo-3 {
+        background: none;
+        background-size: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    #espaco-imagem {
+        width: 258px;
+        height: 116.25px;
+    }
+
+    section {
+        padding: 0;
+        margin: 0;
+        padding-bottom: 5%;
+    }
+
+    section article {
+        padding: 0;
+    }
+
+    h4 {
+        width: auto;
+        padding-top: 20px;
+    }
+
+    .botao-1-secao {
+        margin: 0;
+    }
+
+    main article ul {
+        margin-bottom: 0;
+    }
+
+}
